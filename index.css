@@ -1,0 +1,169 @@
+.divcreatetile{
+    
+}
+.iconblue{
+    color: rgb(0, 114, 206);
+}
+.full-tile-container{
+    width:100%; 
+    text-align: center;
+}
+.divider{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    border-top: 3px solid rgb(70, 70, 70);
+    top: 0px;
+}
+.paddingsm{
+    padding: 10px 0 !important;
+}
+.tile{
+    display: inline-block;
+    position: relative;
+    width: 41%;
+    padding: 20px;
+}
+.tilefull{
+    padding:25px 0;
+}
+.left-tile{
+    border-right: 5px solid rgb(70, 70, 70);
+    margin-left: -2px;
+}
+.right-tile{
+    border-left: 5px solid rgb(70, 70, 70);
+    margin-left: -.35em;
+}
+.tile-img-div{
+    display: inline-block;
+    padding-top:10px;
+    color: rgb(0, 114, 206);
+    text-align: center;
+    border-collapse: collapse;
+    min-width:100%;
+    margin-bottom: 15px;
+}
+.tile-img{
+    position: relative; 
+    width:45%; 
+    max-width:150px;
+    max-height:100px;
+}
+.tile-text-div{
+    display: inline-block;
+    padding-bottom:10px;
+    position: relative;
+    color: rgb(0, 162, 255);
+    border-collapse: collapse;
+    min-width:100%;
+    text-align: center;
+    font-size: 130%;
+}
+.tile-img-div{
+    display: inline-block;
+    padding-top:10px;
+    color: #fff;
+    text-align: center;
+    border-collapse: collapse;
+    min-width:100%;
+    margin-bottom: 15px;
+}
+.hub-container {
+    width:500px;
+	position: relative;
+    height: 800px;
+    overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	background-color: rgb(31, 31, 31);
+    border-top: 5px solid rgb(70, 70, 70);
+}
+
+.hub-row-full {
+	text-align: center;
+	height: 185px;
+	border-top: 0px solid rgb(70, 70, 70);
+	border-bottom: 5px solid rgb(70, 70, 70);
+	padding: 0;
+    margin: 0;
+}
+
+.hub-row-half {
+    height: 185px;
+    text-align: center;
+	border-top: 0px solid rgb(70, 70, 70);
+	border-bottom: 5px solid rgb(70, 70, 70);
+}
+
+.hub-col-half-left {
+    height: 180px;
+    border-right: 3px solid rgb(70, 70, 70);
+}
+
+.hub-col-half-right {
+    height: 180px;
+	border-left: 3px solid rgb(70, 70, 70);
+}
+
+.hub-image-row {
+    text-align: right;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    padding-right: 20px;
+}
+
+.hub-image {
+	width: 100px;
+}
+
+.autographs-svg {
+    width: 65px;
+}
+
+.hub-text-row {
+    text-align: left;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    padding: 0px 15% 0px 0px;
+}
+
+.hub-image-col {
+	width: 80px;
+    left: 50%;
+    top: 20%;
+    -webkit-transform: translateX(-50%) translateY(-20%);
+    transform: translateX(-50%) translateY(-20%);
+    position: relative;
+}
+
+.hub-text-col {
+    text-align: center;
+    top: 15%;
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%);
+    position: relative;
+}
+
+.hub-image-col, .hub-image-row > i {
+    font-size: 4.7em;
+    color: rgb(0, 114, 206);
+}
+
+.hub-text {
+    font-size: 1.5em;
+    font-family: "SST W01 Light",Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgb(0, 162, 255);
+}
+
+@media only screen and (max-width:320px) {
+	.hub-text {
+		font-size: 1.2em;
+		font-family: "SST W01 Light",Helvetica Neue,Helvetica,Arial,sans-serif;
+		color: rgb(0, 162, 255);
+	}
+}
