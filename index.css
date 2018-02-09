@@ -1,5 +1,19 @@
-.divcreatetile{
+.nodrag{
     
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-drag: none; 
+}
+.divcreatetile{
+    position: absolute;
+    top:20px;
+    left:550px;
+    border: 1px solid #000;
+    height: 800px;
+    width: 400px;
 }
 .iconblue{
     color: rgb(0, 114, 206);
@@ -16,7 +30,7 @@
     top: 0px;
 }
 .paddingsm{
-    padding: 10px 0 !important;
+    padding: 10px 150px !important;
 }
 .tile{
     display: inline-block;
