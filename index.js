@@ -5,6 +5,9 @@ function donotallowDrop(ev) {
 function allowDrop(ev) {
     ev.preventDefault();
 }
+function dispose(ev){
+    console.log('dispose');
+}
 function drag(ev) {
     originindex = ev.target.id;
     ev.dataTransfer.setData("text", ev.target.id);
