@@ -26,7 +26,7 @@ function createhalfbtn(container, adder, btn){
         var src = tiles[btn].img;
         var img = document.createElement("IMG");
         img.setAttribute("src", tiles[btn].img);
-        img.setAttribute("width", "90px");
+        img.setAttribute("width", "80px");
         img.setAttribute("class","nodrag");
         divimg.appendChild(img);
     }
@@ -56,7 +56,7 @@ newcontent.setAttribute("ondragstart", "drag(event)");
 newcontent.setAttribute("ondragover", "allowDrop(event)");
 newcontent.setAttribute("ondrop", "drop1(event)");
 var divimg = document.createElement("DIV");
-divimg.setAttribute("class", "tile-img-div");
+divimg.setAttribute("class", "tile-img-div blanktile");
 var text = document.createElement("DIV");
 text.setAttribute("class", "tile-text-div");
 newcontent.appendChild(divimg);

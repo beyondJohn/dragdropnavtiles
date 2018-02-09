@@ -1,3 +1,6 @@
+.blanktile{
+    height:70px;
+}
 .nodrag{
     
     user-select: none;

@@ -12,7 +12,7 @@ var tiles = {
     autographs: { text: 'Autographs', img: 'autographs.svg', navtag: 'autographs', imgtype: 'svg', class: 'full paddingsm', type: 'single' },
     survey: { text: 'Survey', img: 'fa fa-pencil-square-o fa-5x', navtag: 'survey', imgtype: 'fa', class: 'full', type: 'single' },
     conference_rooms: { text: 'Conference Rooms', img: 'fa fa-users fa-5x', navtag: 'confrooms', imgtype: 'fa', class: 'half', type: 'double' },
-    latam_conference_rooms: { text: 'LATAM Conference Rooms', img: 'LATAM.svg', navtag: 'latamconfrooms', imgtype: 'svg', class: 'full paddingsm' }
+    latam_conference_rooms: { text: 'LATAM Conference Rooms', img: 'info.svg', navtag: 'latamconfrooms', imgtype: 'svg', class: 'full paddingsm', type: 'double'  }
 }
 
 // sample final object
