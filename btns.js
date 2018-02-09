@@ -9,7 +9,7 @@ function createhalfbtn(container, adder, btn){
     newdiv.setAttribute("ondragover", "allowDrop(event)");
     // tile content
     const newcontent = document.createElement("DIV");
-    newcontent.setAttribute("id", adder);
+    newcontent.setAttribute("id", adder + "-" + btn);
     newcontent.setAttribute("draggable", "true");
     newcontent.setAttribute("ondragstart", "drag(event)");
     newcontent.setAttribute("ondragover", "allowDrop(event)");
@@ -33,6 +33,8 @@ function createhalfbtn(container, adder, btn){
     var text = document.createElement("DIV");
     text.setAttribute("class", "tile-text-div");
     text.appendChild(document.createTextNode(tiles[btn].text));
+    text.setAttribute("ondrop", "return false");
+    text.setAttribute("ondragover", "return false");
     newcontent.appendChild(divimg);
     newcontent.appendChild(text);
     newdiv.appendChild(newcontent);
